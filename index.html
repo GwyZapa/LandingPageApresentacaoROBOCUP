@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    
+    <link rel="stylesheet" href="./dist/css/lightbox.min.css">
+
+    <link rel="stylesheet" href="./style/style.css">
+
+    <title>Kara</title>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <div id="navbar"> 
+        <ul>
+            <li><a href="#apresentacao__robo">Apresentação</a></li>
+            <li><a href="#galeria__robo">Galeria</a></li>
+            <li><a href="#hardware__robo">Hardware</a></li>
+            <li><a href="#arma__robo">Sistema de Armas</a></li>
+            <li><a href="#criadores__robo">Criadores</a></li>
+            <li><a href="#contato__robo">Contato</a></li>
+        </ul>
+    </div>
+
+    <!-- HEADER -->
+    <div class="container header">
+        <h1 >Kara</h1>
+    </div>
+
+
+    <!-- APRESENTAÇÃO -->
+    <div class="container">
+        <h2 id="apresentacao__robo">Apresentação do Robô</h2>
+        <div class="apresentacao">
+        <img src="./images/apresentação.jpg" alt="Batalha de Robôs Fiap">
+    <div class="textbox__apresentacao"><h3>ROBOCUP</h3> <p>  A competição mais antiga da Fiap atinge todos os alunos dos primeiros anos de Sistemas de Informação. Seu principal objetivo é estourar o balão que o robô do adversário carrega. Para isso, todas as máquinas possuem armas em seu corpo. <p> Kara, é um robô inteligente inspirado pela personagem do jogo "DETROIT: Become Human" uma android que ganha vida e luta pelos seus direitos... Esperemos que o nosso robô também ganhe vida e lute para ganhar essa ROBOCUP.</p></p>
+    </div>
+    </div>
+    </div>
+
+    <!-- GALERIA -->
+    <div class="container">
+        <h2 id="galeria__robo">Galeria</h2>
+        <div class="container__flex">
+            <div class="galeria__item"> 
+                <a href="./images/img4.jpg" data-lightbox="roadtrip" data-title="FIAP ROBOCUP INSPIRAÇÃO">
+                    <i class="fas fa-chevron-left"></i>
+                    <img src="./images/img4.jpg" alt="">
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+                <a href="./images/balloonpopmonster.jpg" data-lightbox="roadtrip" data-title="Inspiração de base do robô"></a>
+                <a href="./images/balloonpopmonster2.jpg " data-lightbox="roadtrip" data-title="Inspiração de base do robô 2"></a>
+                <a href="./images/img2.jpg" data-lightbox="roadtrip" data-title="FIAP - Robocup - Luta" ></a>
+                <a href="./images/img3.jpg" data-lightbox="roadtrip" data-title="Primeiras Inspirações Robô - ROBOCUP FIAP"></a>
+                <a href="./images/img5.jpg" data-lightbox="roadtrip" data-title="Briga entre 3 robôs"></a>
+                <a href="./images/img6.jpg" data-lightbox="roadtrip"  data-title="ROBOCUP - Inspiração - Luta"></a>
+                <a href="./images/img7.jpg" data-lightbox="roadtrip"  data-title="Inspiração inicial base do robô"></a>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- HARDWARE -->
+    <div class="container container__teste">
+    <h2 id="hardware__robo">Hardware Utilizado</h2>
+    <div class="container__hardware">
+    <!-- CARD1 -->
+    <div class="card">
+        <img src="./images/arduino_uno_r3_similar.jpg" alt="Imagem de um Arduíno">    
+        <h3>ARDUÍNO</h3>
+        <p>Arduino é uma plataforma de prototipagem eletrônica de hardware livre e de placa única, projetada com um microcontrolador Atmel AVR com suporte de entrada/saída embutido, uma linguagem de programação padrão,a qual tem origem em Wiring, e é essencialmente C/C++. O objetivo do projeto é criar ferramentas que são acessíveis, com baixo custo, flexíveis e fáceis de se usar por principiantes e profissionais. </p>
+    </div>
+
+    <!-- CARD2 -->
+    <div class="card">
+        <img src="./images/bluetooth.jpg" alt="Imagem do Módulo bluetooth">    
+        <h3>MÓDULO BLUETOOTH</h3>
+        <p>O Módulo Bluetooth possibilita transmitir e receber dados através de comunicação sem fio. Este módulo pode ser utilizado para criação de comunicação wireless para troca de informações entre dispositivos.</p>
+    </div>
+
+     <!-- CARD3 -->
+    <div class="card">
+        <img src="./images/shield.jpg" alt="Imagem do Shield dos MOTORES">    
+        <h3>SHIELD PARA MOTORES</h3>
+        <p>Ele permite que você controle dois motores CC com uma placa Arduino, controlando a velocidade e a direção de cada um de modo independente. Você também pode medir a absorção de corrente de cada motor entre outras características.</p>
+    </div>
+
+     <!-- CARD4 -->
+    <div class="card">
+        <img src="./images/motor.jpg" alt="Imagem de um dos MOTORES">    
+        <h3>MOTOR</h3>
+        <p>Ele possui várias bobinas que são organizadas em grupos chamados “fases”. Energizando cada fase em sequência, o motor roda um passo de cada vez. Com um driver e um microcontrolador Arduino, por exemplo, você pode obter um posicionamento muito preciso e / ou controle de velocidade</p>
+    </div>
+    <!-- CARD5 -->
+    <div class="card">
+        <img src="./images/bateria.jpg" alt="Imagem da BATERIA">    
+        <h3>BATERIA</h3>
+        <p>Uma bateria é um aparelho ou dispositivo que transforma em corrente elétrica a energia desenvolvida numa reação química. Cada célula de uma bateria contém um terminal positivo (cátodo) e um terminal negativo (ânodo). O processo químico de troca de elétrons é conhecido como oxirredução. As baterias servem para dar a partida no veículo, proporcionar energia.</p>
+    </div>
+    </div>
+    </div>
+
+    <!-- SISTEMA DE ARMAS -->
+    <div class="container">
+        <h2 id="arma__robo">Sistema de Armas</h2>
+        <div class="container__flex">
+        <div class="container__armas "><p>O nossa sistema de armas funciona de maneira muito simples, utilizaremos um conjunto de engrenagens para transformar o movimento de nosso motor elétrico, ao sistema de armas ser acionado o motor irá rodar e com sua rotação irá fazer com que nossos “espetos” sejam projetados com o intuito de estourar a bexiga do robô adversário.
+            Nosso robô terá uma carapaça de espinhos, como um Porco Espinho, Ouriço do mar ou um Abacaxi.
+        </p> <div class="container__img__armas"><img src="./images/Porcupine-thorns_2560x1440.jpg" alt="Porco Espinho de exemplificação"><img src="./images/ourico.jpg" alt="Ouriço do Mar de exemplificação"><img src="./images/abacax.jpg" alt="Abacaxi de exemplificação"></div></div></div>
+    </div>
+
+    <!-- SOBRE NÓS -->
+    <div class="container container__teste2">
+        <h2 id="criadores__robo">Quem somos</h2>
+        <div class="sobre__nos">
+            <div>
+                <img src="./images/z.jpg" alt="Integrante - Guilherme Zapater" class="image__nos"> <h4>Guilherme Zapater - RM: 88080</h4>
+            </div>
+            <div>
+                <img src="./images/will.jpg" alt="Integrante - William Pereira Tedros" class="image__nos"> <h4>William Pereira Tedros - RM: 87429</h4>
+            </div>
+            <div>
+                <img src="./images/sitta.jpg" alt="Integrante - Fernando Sitta" class="image__nos"> <h4>Fernando Sitta - RM: 87177</h4>
+            </div>
+            <div>
+                <img src="./images/paulo.jpg" alt=" Integrante - Paulo Henrique Riello de Souza" class="image__nos"> <h4>Paulo Henrique Riello de Souza - RM: 87773</h4>
+            </div>
+        </div>
+    </div>
+
+    <!-- FORMULÁRIO DE CONTATO -->
+    <div class="container">
+        <div class="container__flex">
+        <div class="form">
+            <h2 id="contato__robo">Formulário de Contato</h2>
+            <input type="text" name="usuario" id="usuario" 
+            placeholder="Nome" maxlength="20" minlength="10" 
+            required>
+            <input type="email" placeholder="Email" id="email" name="email">
+            <textarea name="mensagem" id="mensagem" placeholder="Sua mensagem..."></textarea>
+            <button type="submit" value="Enviar dados">Enviar</button>
+        </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer">
+        <ul>
+            <li><a href="#apresentacao__robo">Apresentação</a></li>
+            <li><a href="#galeria__robo">Galeria</a></li>
+            <li><a href="#hardware__robo">Hardware</a></li>
+            <li><a href="#arma__robo">Sistema de Armas</a></li>
+            <li><a href="#criadores__robo">Criadores</a></li>
+            
+        </ul>
+
+        <p>Fale Conosco:</p>
+        <a href="#contato__robo" id="button__footer">Contato</a>
+
+        <div class="redes__sociais "> 
+            <a href="" class="redes__sociais__item"><i class="fab fa-discord"></i></a>
+            <a href="" class="redes__sociais__item"><i class="fab fa-twitter"></i></a>
+            <a href="" class="redes__sociais__item"><i class="fab fa-youtube"></i></a>
+            <a href="" class="redes__sociais__item"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+
+
+    <script src="./dist/js/lightbox-plus-jquery.min.js"></script>
+    <script src="./dist/js/teste.js"></script>
+
+
+</body>
+</html>
